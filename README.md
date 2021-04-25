@@ -26,14 +26,14 @@ Complete the following:
 - Set up the same process to read in sales_data.csv. However, instead append every row of the sales data to a new sales list object.
 
 - Initialize an empty report dictionary to hold the future aggregated per-product results. The report dictionary will eventually contain the following metrics:
-  01-count: the total quantity for each ramen type
-  02-revenue: the total revenue for each ramen type
-  03-cogs: the total cost of goods sold for each ramen type
-  04-profit: the total profit for each ramen type
+  -- 01-count: the total quantity for each ramen type
+  -- 02-revenue: the total revenue for each ramen type
+  -- 03-cogs: the total cost of goods sold for each ramen type
+  -- 04-profit: the total profit for each ramen type
 -Loop through every row in the sales list object.
 -For each row of the sales data, set the following columns of the sales data to their own variables:
-    Quantity
-    Menu_Item
+    - Quantity
+    - Menu_Item
 - Perform a quick check if the sales_item is already included in the report. If not, initialize the key-value pairs for the particular sales_item in the report. - Then, set the sales_item as a new key to the report dictionary and the values as a nested dictionary containing the following:
   {
     "01-count": 0,
